@@ -1,0 +1,113 @@
+/*
+ Theme Name:   elpuje
+ Description:  elpuje
+ Author:       apolanworks
+ Template:     elpuje-theme
+ Version:      1.0
+ Tags:         Bootstrap, Co
+See:
+*/
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+                                               M E N U
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+                                               F O O T E R
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+                                               S E C T I O N S
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+                                               T E X T
+											   @import url("./css/colors.css");
+@import url("./css/menu.css");
+@import url("./css/footer.css");
+@import url("./css/index.css");
+@import url("./css/page.css");
+@import url("./css/graph.css");
+@import url("./css/animationNeon1.css");
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.col-xs-4,.col-xs-8{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+
+#section-message, #section-messagel{
+   min-height: 80vh !important; 
+}
+#co {
+    transition: all 0.8s ease;
+    z-index: 100;
+}
+
+#co h1, #col h1{
+    display: inline-block;
+    font-size: calc(30pt + 5vw);
+    font-family: mnt-b;
+    z-index: 10;
+}
+
+#complement h1{
+    font-size: calc(30pt + 5vw);
+    font-family: mnt-b; 
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.typed-cursor{
+    display: inline-block;
+    font-size: calc(30pt + 7vw);
+    margin-top: 0 !important;
+}
+
+
+.logo{
+    position: relative;
+    margin:auto;
+    padding: auto;
+    bottom: 450px;
+    z-index: -1;
+}
+
+#section-message img{
+    width:calc(40pt + 20vw);
+    opacity: 0;
+}
+
+
+#section-rta h2{
+    text-transform: uppercase;
+    font-size:calc(7pt + 0.5vw);
+     letter-spacing: 2px;
+}
+
+#section-footer img{
+    width:calc(20pt + 5vw);
+}

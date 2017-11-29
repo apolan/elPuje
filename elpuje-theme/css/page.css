@@ -1,0 +1,281 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 13, 2017, 8:05:44 AM
+    Author     : apolan
+*/
+
+
+#section-recibo{
+    width: 700px;
+    text-align: center;
+
+    margin-bottom:100px;
+    background-color:rgba(255, 255, 255, 0.5);
+    background-repeat:repeat;
+}
+
+#section-recibo h1{
+    font-family: "cm-b";
+    margin-bottom: 30px;
+    margin-top: 60px;
+    font-size: calc(10pt + 1vw);
+    text-transform: uppercase;
+}
+
+#section-recibo h3{
+    font-family: "cm-b";
+    font-size: calc(10pt + 0.5vw);
+    text-transform: uppercase;
+
+}
+
+
+#section-recibo h4{
+    font-family: "cm-b";
+    font-size: calc(3pt + 0.5vw);
+    text-transform: uppercase;
+}
+
+#section-recibo p{
+    width: calc(200px + 20vw) !important;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#tag-rel{
+    margin-bottom: 5px !important;
+}
+
+.form-group {
+    display:inline!important;
+}
+
+.form-group label{
+    float:none;
+    margin-right: 20px;
+    padding-top: 10px; 
+}
+
+.form-group select, .form-group input {
+    width: 300px;
+}
+
+
+.form-group hr {
+    border:none;
+    border-bottom:2px dashed black;
+    color:black;
+    height:2px;
+    width:80%;
+}
+
+#section-recibo label,
+#section-recibo input {
+}
+
+#menuBtn{
+    margin-bottom: 20px;
+}
+
+
+#dates .form-group{
+    margin-top: 50px;
+    margin-right: 22px;
+    margin-left: 100px;
+    width: 300px !important;
+}
+
+
+.square{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #666666;
+    margin-right: 0px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.square img{
+    width: 40px;
+
+}
+
+.personas{
+    display: inline;
+}
+
+.person{
+    float: left;
+    margin: 10px;
+    border-style: solid ;
+    border-width:1px;
+}
+
+.person label, .person input{
+    margin: 0px 10px 3px 10px;
+    max-width: 160px; 
+}
+
+.person input{
+    margin-bottom: 15px;
+}
+
+#menuBtn{
+    margin-top: 30px;
+
+}
+
+
+
+
+#relacionesImg{
+
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+#section-graph h1{
+    font-family: "kf-b";
+    font-size: calc(10pt + 2vw);
+}
+
+#section-graph .menu-sm h3 {
+    font-family: "nt-n";
+    border-style: solid;
+    border-width: 0px;
+    border-color: #cc00ff;
+    font-size: calc(4pt + 0.5vw);
+
+    letter-spacing: 2px;
+    padding: calc(15px + 0.5vw) 0 0 0 ;
+    transform: translateX(calc(-100px - 3vw));
+}
+
+#dashboard{
+    background-color:rgba(255, 255, 255, 0.7);
+    position: absolute;
+    z-index: 100;
+    width: 200px;
+    float: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#dashboard h1{
+    font-family: "mp-b" !important;    
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    font-size: 12pt !important;
+    text-transform: uppercase;
+}
+
+#dashboard h2{
+
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    font-size: 10pt !important;
+    text-transform: uppercase;
+}
+#dashboard h3{
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    font-size: 8pt !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#dashboard h4{
+    font-family: "mp-b" !important; 
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    font-size: 8pt !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+#dashboard p{
+    text-align: center;
+    margin: 5px 5px 5px 5px; 
+}
+
+#btnMenu{
+    background-color: black;
+}
+
+#btnMenu .panel{
+    text-align: center;
+    background-color: black;
+    min-width: 200px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#btnMenu .panel button{
+    margin: 10px auto 10px auto;
+
+}
+
+
+#btnMenu .panel h3{
+    font-family: "nt-n";
+    margin: auto;
+    text-align: center;
+    font-size: calc(7pt + 0.3vw);
+
+}
+
+#btnMenu h2{
+    font-family: "nt-n";
+    margin: auto;
+    text-align: center;
+    font-size: calc(6pt + 0.5vw);
+
+}
+
+
+
+
+#grapsvg{
+    width: 1000px;
+    height: 740px;
+}
+
+
+.btn-purple{
+    background-color: #d4d4d4;
+}
+
+.convention{
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%;
+    border: 1px solid white;
+    padding:0;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.actividad{
+  background: gray;  
+}
+.lugar{
+  background: red;  
+}
+.persona{
+  background: blue;  
+}
+.dueno{
+  background: yellow;  
+}

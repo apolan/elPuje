@@ -1,0 +1,264 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 13, 2017, 8:05:34 AM
+    Author     : apolan
+*/
+
+
+.sectionPage{
+    margin-top: 70px;
+    min-width: 1300px;
+    max-width: 1519px;
+    margin-bottom: 70px;
+}
+
+#section-home, #section-title{
+    min-height: 600px;
+}
+
+#section-constanza,#section-surecibo, #section-navegar{
+    margin-top: 200px;
+    min-height: 300px;
+    margin-bottom:200px;
+}
+
+#section-definicion{
+    min-height: 300px;
+    margin-bottom:200px;
+}
+
+#section-ad-1{
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 10;
+}
+
+
+
+.preguntas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 1300px;
+    max-width: 1519px;
+    min-height: 600px;
+    margin-top: 70px;
+
+    z-index: 1000;
+}
+
+.pregunta{
+    float: left;
+    width: 100%;
+    z-index: 10000;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.preguntas .rta h2{
+    font-size: 20pt;
+
+} 
+
+.ad{
+    position: relative;
+    max-width: 1519px;
+    max-height: 5000px !important;
+    overflow: hidden !important; 
+}
+
+#section-home #welcome {
+
+}
+
+#welcome #on-img{
+
+    max-width: 1400px;
+    z-index: 0;
+}
+
+#lights{
+    z-index: 10001;
+    position: relative;
+    bottom: 300px;
+   
+}
+
+#switch{
+    width: 80px; 
+}
+
+#on {
+    float: none;
+    position: relative;
+    width: 19px;
+    height: 17px;
+    background-color:rgba(26, 26, 26, 0.2);
+    z-index: 10002;
+    bottom: 57px;
+    right: 0px;
+    margin: auto;
+    padding: auto;
+}
+
+
+#off {
+    float: none;
+    position: relative;
+    width: 19px;
+    height: 17px;
+    background-color:rgba(26, 26, 26, 0.2);
+    z-index: 10002;
+    bottom: 57px;
+    right: 0px;
+    margin: auto;
+    padding: auto;
+}
+
+
+.shadow-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 3px 3px 10px 0 #000000;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.shadow img{
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
+    box-shadow: rgba(0, 0, 0, 1) 5px 5px 55px inset;
+    z-index: 100;
+}
+
+
+#section-title {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    min-height: 500px !important;
+}
+
+#section-title h1{
+    font-family: "kf-b";
+    font-size: calc(20pt + 4vw);
+}
+
+#section-title h2 {
+    font-family: "mp-n";
+    text-transform: uppercase;
+    font-size: calc(7pt + 0.5vw);
+    letter-spacing: 5px;
+}
+
+#section-title h3 {
+    font-family: "nt-n";
+    border-style: solid;
+    border-width: 0px;
+    border-color: #cc00ff;
+    font-size: calc(4pt + 0.5vw);
+    width: calc(70px + 2vw) !important;
+    letter-spacing: 2px;
+    padding: 4px;   
+    margin-bottom: 70px;
+    transform: translateX(calc(-100px - 3vw));
+}
+
+
+.pregunta .pr h1, #section-constanza h1, #section-navegar h1,
+#section-surecibo h1{
+    float:left;
+    font-family: "nt-n";
+    font-size: calc(15pt + 2.5vw);
+    text-align: right;
+    width: calc(200px + 19vw) !important;
+}
+
+.pregunta .rta h1{
+    float:left;
+    font-family: "nt-n";
+    font-size: calc(15pt + 2.5vw);
+    text-align: center;
+    width: calc(200px + 19vw) !important;
+
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+
+#link-constanza{
+    cursor: pointer;
+}
+
+#link-constanza p {
+    margin:8px;
+}
+#section-msj h1, #section-definicion h1 {
+    float:left;
+    font-family: "nt-n";
+    font-size: calc(15pt + 2.5vw);
+    text-align: right;
+    width: calc(200px + 8vw) !important;
+}
+
+#section-msj p, #section-consumo p, #section-definicion p,
+#section-consumo  p, #section-constanza p,
+#section-navegar p,  #section-surecibo p{
+    font-size: calc(9pt + 0.2vw);
+    font-family: "as-l";
+    padding:0;
+    width: 530px;
+
+}
+
+
+
+
+.col-center{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+
+
+
+
+
+#section-concepto img{
+    width: 100%;
+}
+
+
+
+#section-consumo h1{
+    font-family: "nt-n";
+    font-size: calc(15pt + 2.5vw);
+    text-align: right;
+    width: calc(200px + 7vw) !important;
+
+}
+
+svg{
+    margin-top: 10px;
+    border: 1px solid white !important;
+    background-color: darkslategray !important;
+}

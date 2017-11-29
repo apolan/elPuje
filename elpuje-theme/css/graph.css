@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 13, 2017, 8:08:52 AM
+    Author     : apolan
+*/
+
+
+.nodes circle{
+    stroke-width: 2px !important;
+}
+
+
+circle{
+    stroke-width: 2px !important;
+    stroke: black;
+}
+
+
+.persona{
+    font-size: 8pt;
+    color: gray;
+    font-weight: 400;
+}
+
+.actividad{
+    font-size: 13pt;
+}
+
+
+circle{
+    background-color: white; 
+}
+
+#section-graph{
+
+}
+
+svg{
+    width : 1200px;
+    height : +743px;
+    background-color: black;
+}
+
+circle{
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+/*	style definitions	*/
+#blue {
+    top: 1em;
+    left: 1em;
+}
+
+#orange {
+    top: 1em;
+    left: 8em;
+}
+
+#green {
+    top: 1em;
+    left: 16em;
+}
+
+.node {
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.link {
+    stroke: gray;
+    stroke-width: 4px;
+}
